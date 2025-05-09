@@ -12,7 +12,6 @@ public class FlujosControlNotasAlumnos {
         double avgMas5 = 0, avgMenos4 = 0, avgTotal = 0;
         int cont5 = 0, cont4 = 0, total1 = 0;
 
-        calificaciones:
         for (int i = 0; i < notasLargo; i++) {
             System.out.println("Inserte las Evaluaciones con valor entre 1.0 y 7.0 " +
                                 "de los 20 alumnos (alumno no. " + (i+1) + ")");
